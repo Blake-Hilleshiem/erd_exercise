@@ -1,0 +1,11 @@
+My ERD is made for an accounting app that will be a one stop spot to see all your paid and future bills, and compare your balance with your bank statement. 
+
+Examples:
+1:1
+  One example of a 1:1 relationship is each user will only have one user_id.
+
+1:many
+  An example of a 1:many relationship can be found in the Service_plans. As a single user can be referenced in many service plans.
+
+many:many
+  Lastely, an example of a many:many relationship is in the Subscriptions and Users tables. A user can have many subscription_id's and a subscription can have many user_id's. (for like tracking purposes)
